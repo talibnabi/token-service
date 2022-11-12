@@ -12,6 +12,7 @@ import java.util.Collection;
 @NoArgsConstructor
 @AllArgsConstructor
 public class JWTUser implements UserDetails {
+    //https://www.bankalar.org/bilgi-merkezi/yazilimda-token-nedir/
 
     private String username;
     private String password;
